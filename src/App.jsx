@@ -84,9 +84,9 @@ function App() {
   return (
     <div className="main">
 
-      <div><span>Points: {points} </span></div>
+      <div className="points"><span>Points: {points} </span></div>
 
-      <img width={'400px'} src={POKE} alt="" />
+      <img width={'350px'} src={POKE} alt="" />
       <img className={image} width={'400px'} src={pokemon.url} alt="" />
   
        
