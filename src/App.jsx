@@ -59,7 +59,7 @@ function App() {
   const handleSet = (e) => {
     e.preventDefault();
     setBet(e);
-    if (pokemon.name === bet) {
+    if (pokemon.name === bet.toLowerCase()) {
       setResult(true)
       setBet('');
       setPoints((prev) => prev + 1)
